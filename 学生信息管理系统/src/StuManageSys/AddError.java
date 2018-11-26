@@ -10,43 +10,43 @@ import javax.swing.*;
 public class AddError extends JDialog{
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
-	
-	//-------------------------------------------------------------¹Ø±Õ½çÃæ
+
+	//-------------------------------------------------------------ï¿½Ø±Õ½ï¿½ï¿½ï¿½
 		public void myclose() {
 			this.dispose();
 		}
-		
+
 		public AddError() {
-			this.setTitle("Ñ§ÉúĞÅÏ¢¹ÜÀíÏµÍ³--²Ù×÷ÌáÊ¾");
+			this.setTitle("å­¦ç”Ÿä¿¡æ¯ç®¡ç†ç³»ç»Ÿ--æ“ä½œæç¤º");
 			this.setResizable(false);
 			ImageIcon icon=new ImageIcon(LogIn.class.getResource("LOGO2.jpg"));
 			this.setIconImage(icon.getImage());
 			Container container=this.getContentPane();
 			container.setLayout(null);
 			Color cjp1=new Color(255,250,250);
-			
+
 			container.setBackground(cjp1);
-			JLabel jl1=new JLabel("ĞÅÏ¢²»ÍêÕû£¡£¡",JLabel.CENTER);
+			JLabel jl1=new JLabel("ä¿¡æ¯ä¸å®Œæ•´ï¼ï¼",JLabel.CENTER);
 			jl1.setForeground(Color.RED);
 			jl1.setFont(new Font(" ", 1, 15));
 			jl1.setBackground(cjp1);
 			jl1.setBounds(90, 40, 120, 30);
-			
-			JButton jb1=new JButton("È·¶¨");
+
+			JButton jb1=new JButton("ç¡®å®š");
 			jb1.setBackground(cjp1);
 			jb1.setBounds(120, 110, 60, 30);
 			jb1.setFocusPainted(false);
-			
+
 			container.add(jl1);
 			container.add(jb1);
-			
-			
+
+
 			class jb1Action implements ActionListener{
 				public void actionPerformed(ActionEvent e) {
-					myclose();			
+					myclose();
 				}
 			}
 			jb1.addActionListener(new jb1Action());

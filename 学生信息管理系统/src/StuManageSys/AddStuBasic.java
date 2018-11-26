@@ -13,16 +13,16 @@ import javax.swing.*;
 
 public class AddStuBasic extends JFrame {
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
-	
-	//-------------------------------------------------------------¹Ø±Õ½çÃæ
+
+	//-------------------------------------------------------------å…³é—­ç•Œé¢
 		public void myclose() {
 			this.dispose();
 		}
-	
-		public JTextField stubacjt2_1=new JTextField();  //»ù±¾ĞÅÏ¢Â¼Èë¿ò
+
+		public JTextField stubacjt2_1=new JTextField();  //åŸºæœ¬ä¿¡æ¯å½•å…¥æ¡†
 		public JTextField stubacjt2_2=new JTextField();
 		public JTextField stubacjt2_3=new JTextField();
 		public JTextField stubacjt2_4=new JTextField();
@@ -30,19 +30,19 @@ public class AddStuBasic extends JFrame {
 		public JTextField stubacjt2_6=new JTextField();
 		public JTextField stubacjt2_7=new JTextField();
 		public JTextField stubacjt2_8=new JTextField();
-	//============================================================¹¹Ôì·½·¨
+	//============================================================æ„é€ æ–¹æ³•
 	public AddStuBasic() {
-		this.setTitle("Ñ§ÉúĞÅÏ¢¹ÜÀíÏµÍ³--»ù±¾ĞÅÏ¢");
+		this.setTitle("å­¦ç”Ÿä¿¡æ¯ç®¡ç†ç³»ç»Ÿ--åŸºæœ¬ä¿¡æ¯");
 		ImageIcon icon=new ImageIcon(LogIn.class.getResource("LOGO2.jpg"));
 		this.setIconImage(icon.getImage());
 		Container container3=this.getContentPane();
 		container3.setLayout(null);
 		Color cjp1=new Color(255,250,250);
 		Color cjp2=new Color(255,255,224);
-		
-		//*****************************************Â¼Èë»ù±¾ĞÅÏ¢¹¦ÄÜÌáÊ¾±êÇ©
+
+		//*****************************************å½•å…¥åŸºæœ¬ä¿¡æ¯åŠŸèƒ½æç¤ºæ ‡ç­¾
 		JPanel stubacjp1=new JPanel();
-		JLabel stubacjl1=new JLabel("Â¼Èë»ù±¾ĞÅÏ¢",JLabel.CENTER);
+		JLabel stubacjl1=new JLabel("å½•å…¥åŸºæœ¬ä¿¡æ¯",JLabel.CENTER);
 		stubacjl1.setBounds(0,0,350,60);
 		stubacjl1.setFont(new Font(" ", 0, 18));
 		stubacjl1.setBackground(cjp2);
@@ -50,8 +50,8 @@ public class AddStuBasic extends JFrame {
 		stubacjp1.setBounds(0,0,350,60);
 		stubacjp1.add(stubacjl1);
 		stubacjp1.setBackground(cjp2);
-		
-		//-------------------------------------------------- Â¼ÈëÏîÄ¿·ÅÖÃÃæ°å
+
+		//-------------------------------------------------- Â¼ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		JPanel stubacjp2_1=new JPanel();
 		JPanel stubacjp2_2=new JPanel();
 		JPanel stubacjp2_3=new JPanel();
@@ -60,15 +60,15 @@ public class AddStuBasic extends JFrame {
 		JPanel stubacjp2_6=new JPanel();
 		JPanel stubacjp2_7=new JPanel();
 		JPanel stubacjp2_8=new JPanel();
-		JLabel stubacjl2_1=new JLabel("Ñ§      ºÅ£º",JLabel.CENTER);//±êÇ©ÌáÊ¾×ÖÌåÉèÖÃ
-		JLabel stubacjl2_2=new JLabel("ĞÕ      Ãû£º",JLabel.CENTER);
-		JLabel stubacjl2_3=new JLabel("ĞÔ      ±ğ£º",JLabel.CENTER);
-		JLabel stubacjl2_4=new JLabel("Äê      Áä£º",JLabel.CENTER);
-		JLabel stubacjl2_5=new JLabel("ÇŞ ÊÒ ºÅ£º",JLabel.CENTER);
-		JLabel stubacjl2_6=new JLabel("ÕşÖÎÃæÃ²£º",JLabel.CENTER);
-		JLabel stubacjl2_7=new JLabel("ÁªÏµ·½Ê½£º",JLabel.CENTER);
-		JLabel stubacjl2_8=new JLabel("¼ÒÍ¥×¡Ö·£º",JLabel.CENTER);
-		stubacjp2_1.setBounds(0, 60, 350, 50);      //ÈİÆ÷´óĞ¡
+		JLabel stubacjl2_1=new JLabel("å­¦      å·ï¼š",JLabel.CENTER);//ï¿½ï¿½Ç©ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		JLabel stubacjl2_2=new JLabel("å§“      åï¼š",JLabel.CENTER);
+		JLabel stubacjl2_3=new JLabel("æ€§      åˆ«ï¼š",JLabel.CENTER);
+		JLabel stubacjl2_4=new JLabel("å¹´      é¾„ï¼š",JLabel.CENTER);
+		JLabel stubacjl2_5=new JLabel("å¯ å®¤ å·ï¼š",JLabel.CENTER);
+		JLabel stubacjl2_6=new JLabel("æ”¿æ²»é¢è²Œï¼š",JLabel.CENTER);
+		JLabel stubacjl2_7=new JLabel("è”ç³»æ–¹å¼ï¼š",JLabel.CENTER);
+		JLabel stubacjl2_8=new JLabel("å®¶åº­ä½å€ï¼š",JLabel.CENTER);
+		stubacjp2_1.setBounds(0, 60, 350, 50);      //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡
 		stubacjp2_2.setBounds(0, 110, 350, 50);
 		stubacjp2_3.setBounds(0, 160, 350, 50);
 		stubacjp2_4.setBounds(0, 210, 350, 50);
@@ -76,7 +76,7 @@ public class AddStuBasic extends JFrame {
 		stubacjp2_6.setBounds(0, 310, 350, 50);
 		stubacjp2_7.setBounds(0, 360, 350, 50);
 		stubacjp2_8.setBounds(0, 410, 350, 50);
-		stubacjl2_1.setBounds(20, 0, 80, 40);      //±êÇ©´óĞ¡
+		stubacjl2_1.setBounds(20, 0, 80, 40);      //ï¿½ï¿½Ç©ï¿½ï¿½Ğ¡
 		stubacjl2_2.setBounds(20, 0, 80, 40);
 		stubacjl2_3.setBounds(20, 0, 80, 40);
 		stubacjl2_4.setBounds(20, 0, 80, 40);
@@ -84,7 +84,7 @@ public class AddStuBasic extends JFrame {
 		stubacjl2_6.setBounds(20, 0, 80, 40);
 		stubacjl2_7.setBounds(20, 0, 80, 40);
 		stubacjl2_8.setBounds(20, 0, 80, 40);
-		stubacjt2_1.setBounds(100, 10, 200, 30);     //ĞÅÏ¢Â¼Èë¿òÉèÖÃ
+		stubacjt2_1.setBounds(100, 10, 200, 30);     //ï¿½ï¿½Ï¢Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		stubacjt2_2.setBounds(100, 10, 200, 30);
 		stubacjt2_3.setBounds(100, 10, 200, 30);
 		stubacjt2_4.setBounds(100, 10, 200, 30);
@@ -92,7 +92,7 @@ public class AddStuBasic extends JFrame {
 		stubacjt2_6.setBounds(100, 10, 200, 30);
 		stubacjt2_7.setBounds(100, 10, 200, 30);
 		stubacjt2_8.setBounds(100, 10, 200, 30);
-		stubacjp2_1.setLayout(null);          //ÈİÆ÷²¼¾Ö·½Ê½
+		stubacjp2_1.setLayout(null);          //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½Ê½
 		stubacjp2_2.setLayout(null);
 		stubacjp2_3.setLayout(null);
 		stubacjp2_4.setLayout(null);
@@ -100,7 +100,7 @@ public class AddStuBasic extends JFrame {
 		stubacjp2_6.setLayout(null);
 		stubacjp2_7.setLayout(null);
 		stubacjp2_8.setLayout(null);
-		stubacjp2_1.add(stubacjl2_1);//¼ÓÈë±êÇ©
+		stubacjp2_1.add(stubacjl2_1);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©
 		stubacjp2_2.add(stubacjl2_2);
 		stubacjp2_3.add(stubacjl2_3);
 		stubacjp2_4.add(stubacjl2_4);
@@ -108,7 +108,7 @@ public class AddStuBasic extends JFrame {
 		stubacjp2_6.add(stubacjl2_6);
 		stubacjp2_7.add(stubacjl2_7);
 		stubacjp2_8.add(stubacjl2_8);
-		stubacjp2_1.add(stubacjt2_1);//¼ÓÈëĞÅÏ¢Â¼Èë¿ò
+		stubacjp2_1.add(stubacjt2_1);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢Â¼ï¿½ï¿½ï¿½ï¿½
 		stubacjp2_2.add(stubacjt2_2);
 		stubacjp2_3.add(stubacjt2_3);
 		stubacjp2_4.add(stubacjt2_4);
@@ -116,7 +116,7 @@ public class AddStuBasic extends JFrame {
 		stubacjp2_6.add(stubacjt2_6);
 		stubacjp2_7.add(stubacjt2_7);
 		stubacjp2_8.add(stubacjt2_8);
-		stubacjp2_1.setBackground(cjp1);//ÈİÆ÷±³¾°ÑÕÉ«
+		stubacjp2_1.setBackground(cjp1);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
 		stubacjp2_2.setBackground(cjp1);
 		stubacjp2_3.setBackground(cjp1);
 		stubacjp2_4.setBackground(cjp1);
@@ -124,25 +124,25 @@ public class AddStuBasic extends JFrame {
 		stubacjp2_6.setBackground(cjp1);
 		stubacjp2_7.setBackground(cjp1);
 		stubacjp2_8.setBackground(cjp1);
-		
-		
-		//===============================================È·¶¨Â¼ÈëĞÅÏ¢Ãæ°å
+
+
+		//===============================================È·ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½
 		JPanel stubacjp3=new JPanel();
-		stubacjp3.setBounds(0, 460, 350, 140); //Â¼Èë°´Å¥
+		stubacjp3.setBounds(0, 460, 350, 140); //Â¼ï¿½ë°´Å¥
 		stubacjp3.setLayout(null);
 		stubacjp3.setBackground(cjp1);
-		JButton stubacjp3jb1=new JButton("Â¼Èë");
+		JButton stubacjp3jb1=new JButton("Â¼ï¿½ï¿½");
 		stubacjp3jb1.setBackground(cjp2);
 		stubacjp3jb1.setBounds(120, 30, 100, 30);
 		stubacjp3.add(stubacjp3jb1);
-		JButton stubacjp3jb2=new JButton("·µ»Ø");  //·µ»Ø°´Å¥
+		JButton stubacjp3jb2=new JButton("ï¿½ï¿½ï¿½ï¿½");  //ï¿½ï¿½ï¿½Ø°ï¿½Å¥
 		stubacjp3jb2.setBackground(cjp1);
 		stubacjp3jb2.setBounds(260, 80, 70, 20);
 		stubacjp3.add(stubacjp3jb2);
 		stubacjp3jb1.setFocusPainted(false);
 		stubacjp3jb2.setFocusPainted(false);
-		
-		
+
+
 		container3.add(stubacjp1);
 		container3.add(stubacjp2_1);
 		container3.add(stubacjp2_2);
@@ -153,17 +153,17 @@ public class AddStuBasic extends JFrame {
 		container3.add(stubacjp2_7);
 		container3.add(stubacjp2_8);
 		container3.add(stubacjp3);
-		
-		
-		//================================================µã»÷·µ»Ø°´Å¥ºóµÄ½çÃæ
+
+
+		//================================================ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø°ï¿½Å¥ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½
 		class  stubacjp3jb2Action implements ActionListener{
 			public void actionPerformed(ActionEvent e) {
 				myclose();
 			}
 		}
 		 stubacjp3jb2.addActionListener(new  stubacjp3jb2Action());
-		 
-		//================================================µã»÷Â¼Èë°´Å¥ºóµÄ½çÃæ
+
+		//================================================ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ë°´Å¥ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½
 		 class  stubacjp3jb1Action implements ActionListener{
 			 public void actionPerformed(ActionEvent e) {
 				if (stubacjt2_1.getText().equals("")|stubacjt2_2.getText().equals("")|stubacjt2_3.getText().equals("")|
@@ -174,7 +174,7 @@ public class AddStuBasic extends JFrame {
 					int height=(int)(screensize.getHeight()-200)/2;
 					AddError addError=new AddError();
 					addError.setBounds( width, height, 300, 200);
-					addError.setVisible(true);		
+					addError.setVisible(true);
 				}
 				else {
 				Dimension screensize=java.awt.Toolkit.getDefaultToolkit().getScreenSize();

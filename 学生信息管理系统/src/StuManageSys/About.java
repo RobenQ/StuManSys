@@ -5,12 +5,12 @@ import javax.swing.*;
 public class About extends JDialog{
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
-	
+
 	public About() {
-		this.setTitle("¹ØÓÚ");
+		this.setTitle("å…³äºŽ");
 		ImageIcon icon=new ImageIcon(LogIn.class.getResource("LOGO2.jpg"));
 		this.setIconImage(icon.getImage());
 		JTextArea about=new JTextArea();
